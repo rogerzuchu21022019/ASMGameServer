@@ -4,10 +4,10 @@
   "private": true,
   "scripts": {
     "start": "node ./../bin/server.js",
-    "dev": "nodemon ./bin/server.js"
-  },
-  "engines": {
-    "node": "18.11.0"
+    "dev": "nodemon ./bin/server.js",
+    "engines": {
+      "node": "v18.11.9"
+    }
   },
   "dependencies": {
     "bcrypt": "^5.1.0",
